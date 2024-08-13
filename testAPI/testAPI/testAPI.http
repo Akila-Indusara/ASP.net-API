@@ -1,0 +1,14 @@
+﻿@testAPI_HostAddress = https://localhost:7135
+
+POST {{testAPI_HostAddress}}/tasks
+Content-Type: application/json
+
+{
+  "name":"report",
+  "status": 1
+}
+###
+
+POST {{testAPI_HostAddress}}/tasks
+
+###
